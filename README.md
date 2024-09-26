@@ -17,11 +17,11 @@ I have a strong foundation in JavaScript. My experience spans multiple programmi
 ### 1. Home furniture store
 - A simple implementation of a furniture store. There you can sort by category, read more about each piece of furniture by clicking on the furniture card, and you can add furniture to the basket.
 
-#### 2.**Dating App**
+### 2. Dating App
 - This was a pet project created by me using react-native expo.
 Pet project included the use of authorization, registration, firebase, react navigation, tailwindCSS, a simple version of 1-on-1 chat and other things.
 
-### 3.**Dalivery App**
+### 3. Dalivery App
 - This is a project using SanityAPI, where you can add restaurants, dishes, categories, etc., Redux, for state management, Firebase for authorization and data storage. There is also a React Native Map and a Pin to mark where the restaurant is on the map. There are also animations for some transitions between pages and other features.
 
 ## 🌐Contact me
