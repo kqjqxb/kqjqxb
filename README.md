@@ -1,5 +1,6 @@
-<p style="font-size: 24px;">Hello everyone 👋</p>
-<p style="font-size: 18px;">My name is Maksym</p>
+<p style="font-size: 70px;"><b>Hello everyone 👋</b></p>
+<p style="font-size: 50px;"><b>My name is Maksym</b></p>
+
 
 
 ## 🧑🏻‍💻 About Me
