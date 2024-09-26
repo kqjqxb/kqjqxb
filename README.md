@@ -1,4 +1,8 @@
-## Hi there 👋
+### Hello, I am Maksym👋
+
+##👨‍🎓 About Me
+I am a student at National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”, majoring in 121 Software Enginering on Faculty of Informatics and Computer Engineering. I am a front-end developer. I have a B2 level proficiency in English and Ukrainian is my native language. 
+
 
 <!--
 **kqjqxb/kqjqxb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
