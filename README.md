@@ -1,4 +1,4 @@
-### Hello, I am Maksym👋
+# Hello, I am Maksym👋
 
 ## 🧑🏻‍💻 About Me
 I am a student at National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”, majoring in 121 Software Enginering on Faculty of Informatics and Computer Engineering. I am a front-end developer. I have a B2 level proficiency in English and Ukrainian is my native language. 
@@ -14,7 +14,7 @@ I have a strong foundation in JavaScript. My experience spans multiple programmi
 
 
 ## 💻My Projects
-**1. Home furniture store**
+## **1. Home furniture store**
 - A simple implementation of a furniture store. There you can sort by category, read more about each piece of furniture by clicking on the furniture card, and you can add furniture to the basket.
 
 # 2.**Dating App**
