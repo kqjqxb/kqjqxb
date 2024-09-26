@@ -14,7 +14,7 @@ I have a strong foundation in JavaScript. My experience spans multiple programmi
 
 
 ## 💻My Projects
-#1. Home furniture store#
+# 1. Home furniture store#
 - A simple implementation of a furniture store. There you can sort by category, read more about each piece of furniture by clicking on the furniture card, and you can add furniture to the basket.
 
 # 2.**Dating App**
