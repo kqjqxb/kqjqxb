@@ -25,7 +25,7 @@ Pet project included the use of authorization, registration, firebase, react nav
 - This is a project using SanityAPI, where you can add restaurants, dishes, categories, etc., Redux, for state management, Firebase for authorization and data storage. There is also a React Native Map and a Pin to mark where the restaurant is on the map. There are also animations for some transitions between pages and other features.
 
 ## 🌐Contact me
-- **Email**: [work.maksym.lomakin@gmail.com](mailto:work.maksym.lomakin@gmail.com?subject=Hello&body=I want to talk to you about work)
+- **Email**: <a href="mailto:work.maksym.lomakin@gmail.com?subject=Hello&body=I want to talk to you about work">work.maksym.lomakin@gmail.com</a>
 - **LinkedIn**[LinkedIn](https://www.linkedin.com/in/maksym-lomakin-945160306/)
 - **Instagram**:[Instagram](https://www.instagram.com/kqjqxb)  
 - **Telegram**[Telegram](https://t.me/kqjqxb)  
