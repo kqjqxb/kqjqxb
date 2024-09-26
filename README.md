@@ -1,9 +1,9 @@
-# Hello, I am Maksym👋
+# Hello, I am Maksym 👋
 
 ## 🧑🏻‍💻 About Me
 I am a student at National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”, majoring in 121 Software Enginering on Faculty of Informatics and Computer Engineering. I am a front-end developer. I have a B2 level proficiency in English and Ukrainian is my native language. 
 
-## 📈Professional Skills
+## 📈 Professional Skills
 I have a strong foundation in JavaScript. My experience spans multiple programming frameworks and technologies, including:
 
 - **Languages:** JavaScript, TypeScript, C, C#
@@ -13,7 +13,7 @@ I have a strong foundation in JavaScript. My experience spans multiple programmi
 - **Other Skills:** Sanity API, Google Places API, Distance Matrix API, RESTful API, algorithms, developing websites and mobile apps.
 
 
-## 💻My Projects
+## 💻 My Projects
 ### 1. Home furniture store
 - A simple implementation of a furniture store. There you can sort by category, read more about each piece of furniture by clicking on the furniture card, and you can add furniture to the basket.
 
@@ -24,7 +24,7 @@ Pet project included the use of authorization, registration, firebase, react nav
 ### 3. Dalivery App
 - This is a project using SanityAPI, where you can add restaurants, dishes, categories, etc., Redux, for state management, Firebase for authorization and data storage. There is also a React Native Map and a Pin to mark where the restaurant is on the map. There are also animations for some transitions between pages and other features.
 
-## 🌐Contact me
+## 🌐 Contact me
 - **Email**: <a href="mailto:work.maksym.lomakin@gmail.com?subject=Hello&body=I want to talk to you about work">work.maksym.lomakin@gmail.com</a>
 - **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/maksym-lomakin-945160306/)
 - **Instagram**: [Instagram](https://www.instagram.com/kqjqxb)  
