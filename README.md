@@ -26,7 +26,7 @@ Pet project included the use of authorization, registration, firebase, react nav
 
 ## 🌐Contact me
 - **Email**: <a href="mailto:work.maksym.lomakin@gmail.com?subject=Hello&body=I want to talk to you about work">work.maksym.lomakin@gmail.com</a>
-- **LinkedIn**[LinkedIn](https://www.linkedin.com/in/maksym-lomakin-945160306/)
-- **Instagram**:[Instagram](https://www.instagram.com/kqjqxb)  
-- **Telegram**[Telegram](https://t.me/kqjqxb)  
+- **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/maksym-lomakin-945160306/)
+- **Instagram**: [Instagram](https://www.instagram.com/kqjqxb)  
+- **Telegram**: [Telegram](https://t.me/kqjqxb)  
 
