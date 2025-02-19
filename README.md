@@ -21,7 +21,7 @@ I have a strong foundation in JavaScript. My experience spans multiple programmi
 - This was a pet project created by me using react-native expo.
 Pet project included the use of authorization, registration, firebase, react navigation, tailwindCSS, a simple version of 1-on-1 chat and other things.
 
-### 3. Dalivery App
+### 3. Delivery App
 - This is a project using SanityAPI, where you can add restaurants, dishes, categories, etc., Redux, for state management, Firebase for authorization and data storage. There is also a React Native Map and a Pin to mark where the restaurant is on the map. There are also animations for some transitions between pages and other features.
 
 ## 🌐 Contact me
