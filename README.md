@@ -4,7 +4,7 @@
 
 Software Engineer with 4+ years of full-stack experience across React Native, React, and Node.js – from mobile UI to backend and API development. Experienced in full-cycle development – from architecture design to production release – with hands-on exposure to NestJS, PostgreSQL/MySQL, Docker, and cloud platforms. Actively applying AI-assisted, agentic development workflows in daily work, including multi-step agents built on the Anthropic API.
  
-Currently a React Native Engineer at **Upstars**, working across mobile and backend layers. Software Engineering student at Igor Sikorsky Kyiv Polytechnic Institute.
+Currently a React Native Engineer at **Upstars**, working across mobile and backend layers.
 
 📍 Warsaw, Poland &nbsp;|&nbsp; 🇺🇦 Ukrainian &nbsp;|&nbsp; English B2
 
