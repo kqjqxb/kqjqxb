@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Maksym Lomakin – Senior Full Stack Engineer">
+<style>
+  .title{font:700 96px 'ITC Benguiat',Benguiat,Georgia,'Times New Roman',serif;fill:none;stroke:#ff1f1f;stroke-width:2.4;
+    stroke-dasharray:900;stroke-dashoffset:900;animation:draw 3.2s ease-out .3s forwards}
+  .fill{font:700 96px 'ITC Benguiat',Benguiat,Georgia,'Times New Roman',serif;fill:#ff1f1f;opacity:0;animation:fillin 1.4s ease-out 2.8s forwards}
+  .neon{animation:flicker 7s linear 3.6s infinite}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @keyframes fillin{to{opacity:.12}}
+  @keyframes flicker{0%,18%,22%,25%,53%,57%,100%{opacity:1}20%,24%,55%{opacity:.35}}
+  .bar{stroke:#ff1f1f;stroke-width:3;stroke-dasharray:1000;stroke-dashoffset:1000;animation:draw 1.6s ease-out 1.6s forwards}
+  .sub{font:600 15px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.3em;fill:#ff6b5e;opacity:0;animation:fade 1.2s ease-out 3s forwards}
+  .meta{font:500 14px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.3em;fill:#8b949e;opacity:0;animation:fade 1.2s ease-out 3.6s forwards}
+  @keyframes fade{to{opacity:1}}
+  .sp circle{fill:#ffe1d6;animation:drift linear infinite;opacity:0}
+  @keyframes drift{0%{transform:translate(0,0);opacity:0}20%{opacity:.6}100%{transform:translate(40px,-220px);opacity:0}}
+</style>
+<defs>
+  <radialGradient id="fog" cx=".5" cy="1.1" r=".9"><stop offset="0" stop-color="#5c0a0e"/><stop offset=".6" stop-color="#14070a"/><stop offset="1" stop-color="#050505"/></radialGradient>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+    <feGaussianBlur stdDeviation="5" result="b1"/><feGaussianBlur stdDeviation="14" result="b2"/>
+    <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1200" height="300" rx="14" fill="url(#fog)"/>
+<g class="sp">
+  <circle cx="90" cy="290" r="1.6" style="animation-duration:11s;animation-delay:-2s"/>
+  <circle cx="180" cy="250" r="1.1" style="animation-duration:9s;animation-delay:-6s"/>
+  <circle cx="270" cy="300" r="2" style="animation-duration:13s;animation-delay:-1s"/>
+  <circle cx="350" cy="270" r="1.2" style="animation-duration:10s;animation-delay:-8s"/>
+  <circle cx="440" cy="295" r="1.7" style="animation-duration:12s;animation-delay:-4s"/>
+  <circle cx="520" cy="260" r="1" style="animation-duration:8s;animation-delay:-3s"/>
+  <circle cx="610" cy="300" r="2.1" style="animation-duration:14s;animation-delay:-9s"/>
+  <circle cx="690" cy="280" r="1.3" style="animation-duration:9.5s;animation-delay:-5s"/>
+  <circle cx="770" cy="300" r="1.8" style="animation-duration:12.5s;animation-delay:-7s"/>
+  <circle cx="850" cy="255" r="1.1" style="animation-duration:10.5s;animation-delay:-2.5s"/>
+  <circle cx="930" cy="290" r="1.6" style="animation-duration:11.5s;animation-delay:-10s"/>
+  <circle cx="1010" cy="270" r="1.2" style="animation-duration:9s;animation-delay:-1.5s"/>
+  <circle cx="1090" cy="300" r="2" style="animation-duration:13.5s;animation-delay:-6.5s"/>
+  <circle cx="1150" cy="260" r="1.4" style="animation-duration:10s;animation-delay:-4.5s"/>
+</g>
+<g class="neon" filter="url(#glow)">
+  <line class="bar" x1="150" y1="58" x2="1050" y2="58"/>
+  <text class="fill" x="600" y="160" text-anchor="middle" textLength="880" lengthAdjust="spacingAndGlyphs">MAKSYM LOMAKIN</text>
+  <text class="title" x="600" y="160" text-anchor="middle" textLength="880" lengthAdjust="spacingAndGlyphs">MAKSYM LOMAKIN</text>
+  <line class="bar" x1="150" y1="192" x2="380" y2="192"/>
+  <line class="bar" x1="820" y1="192" x2="1050" y2="192"/>
+</g>
+<text class="sub" x="600" y="198" text-anchor="middle">SENIOR FULL STACK ENGINEER</text>
+<text class="meta" x="600" y="252" text-anchor="middle">REACT · NEXT.JS · NODE.JS · REACT NATIVE · WARSAW</text>
+</svg>

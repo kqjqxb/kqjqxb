@@ -1,65 +1,103 @@
-# Hi, I'm Maksym 👋
+<p align="center">
+  <img src="assets/header.svg" alt="Maksym Lomakin – Senior Full Stack Engineer" width="100%">
+</p>
 
-## About Me
+<p align="center">
+  <a href="https://kqjqxb.github.io/maksym-lomakin-portfolio/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=githubpages&logoColor=ff3b3b" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/maksym-lomakin/"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=ff3b3b" alt="LinkedIn"></a>
+  <a href="https://t.me/kqjqxb"><img src="https://img.shields.io/badge/Telegram-0d1117?style=for-the-badge&logo=telegram&logoColor=ff3b3b" alt="Telegram"></a>
+  <a href="mailto:work.maksym.lomakin@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=ff3b3b" alt="Email"></a>
+  <a href="https://kqjqxb.github.io/MyDevLog/"><img src="https://img.shields.io/badge/AI_DevLog-0d1117?style=for-the-badge&logo=anthropic&logoColor=ff3b3b" alt="AI DevLog"></a>
+</p>
 
-Senior Software Engineer with 5+ years of full-stack experience across React Native, React, and Node.js – from mobile UI to backend and API development. Experienced in full-cycle development – from architecture design to production release – with hands-on exposure to NestJS, PostgreSQL/MySQL, Docker, and cloud platforms. Actively applying AI-assisted, agentic development workflows in daily work, including multi-step agents built on the Anthropic API.
- 
-Currently a React Native Engineer at **Upstars**, working across mobile and backend layers.
+Senior Full Stack Engineer with **6+ years** of commercial experience building React, Next.js and Node.js products for web and mobile. I own features end-to-end – architecture, specs, backend, release and post-release monitoring – and I'm comfortable explaining trade-offs to clients and stakeholders.
 
-📍 Warsaw, Poland &nbsp;|&nbsp; 🇺🇦 Ukrainian &nbsp;|&nbsp; English B2
+- 🌐 **Web:** React and Next.js (App Router, SSR / SSG / ISR), Core Web Vitals, embeddable widgets with Shadow DOM
+- 🧩 **Backend:** Node.js and TypeScript (Express, NestJS), Python (FastAPI), microservices over RabbitMQ / Kafka, GraphQL Federation, PostgreSQL and MongoDB
+- 📱 **Mobile:** React Native with native Swift modules, 50+ apps taken through App Store review
+- 🤖 **AI:** LLM features shipped to production users, multi-step agents on the Anthropic API, custom Claude Code subagents
 
-## 🛠 Tech Stack
+📍 Warsaw, Poland · 🇺🇦 Ukrainian · English B2 · open to B2B work, remote or hybrid
 
-**Mobile:** React Native · TypeScript · JavaScript · Expo (managed & bare workflow)
+<p align="center">
+  <img src="assets/wall.svg" alt="A string of lights on an alphabet wall spelling LETS BUILD" width="100%">
+</p>
 
-**State Management & Architecture:** Redux · Zustand · Context API · TanStack Query · Scalable React Native architecture · Component-based architecture · SOLID & GRASP principles · MVVM · Clean Architecture
+## 📼 Chapters
 
-**Navigation / UI:** React Navigation · Responsive UI development · React Native Reanimated
+### Chapter Four · Upstars – Full Stack Engineer
+`Mar 2024 – Oct 2026` · Warsaw
 
-**Backend & Cloud Services:** Firebase (Authentication, Firestore, Cloud Functions) · Firebase Analytics · Firebase Crashlytics · OAuth · REST API integration · PostgreSQL · SQLite · GraphQL · WebSocket · JWT · Node.js · MySQL · Docker · GCP · NestJS · AWS
+- Built high-load web services and **8+ internal tools and dashboards** in React and TypeScript, with load testing
+- Shipped Next.js apps on the App Router (SSR / SSG / ISR, SEO, CDN caching) and embeddable widgets for partner sites: Shadow DOM, iframe sandboxing, CSP-safe, versioned `postMessage` protocol
+- Designed and added services in a **microservices** backend: Node.js (Express, NestJS) and Python (FastAPI), RabbitMQ / Kafka / SQS, an Apollo Federation gateway, PostgreSQL and MongoDB side by side
+- Designed REST APIs with OpenAPI contracts and generated SDKs; auth with OAuth 2.0, OpenID Connect and SSO
+- Shipped an **LLM-powered assistant** to end users: backend-built prompts, JSON schema validation with fallbacks, rate limits, caching and cost control
+- Docker, Kubernetes and Terraform; AWS (Lambda, S3, RDS) and GCP; CI/CD on GitHub Actions and Fastlane – **releases 2–3x faster**, **crashes down 25%**
+- Introduced an agentic AI workflow for the team (shared `CLAUDE.md`, review and test subagents, human review before every merge) and **mentored 4 engineers**
 
-**Mobile Device Features:** Geolocation services · Google Maps integration · Push Notifications (FCM/APNs) · Local notifications (iOS/Android) · Media handling (Image Picker, file upload) · Audio playback (background/in-app) · Video playback · iOS system integrations (Dynamic Island, Lock Screen & Live Activities) · Notification Center / Control Center UI integration (iOS) · Async local storage (AsyncStorage) · In-app purchases (RevenueCat) · Native module integration (iOS/Android)
+### Chapter Three · Freelance – Frontend & Mobile Engineer
+`Feb 2023 – Mar 2024` · Remote
 
-**App Deployment & Release (iOS focus):** App Store Connect · iOS build & release process · Code signing & certificates · App Store submission workflow · App Store review guidelines awareness · OTA Updates · Fastlane
+React and React Native products for B2C clients in e-commerce, service booking and beauty: booking flows, subscription paywalls, payments and acquisition funnels, from first architecture to release.
 
-**Tools & Version Control:** Git/GitHub · Jest (unit testing) · GitHub Actions (CI/CD)
+### Chapter Two · Nearby Delivery – Mobile Engineer
+`Apr 2022 – Jan 2023` · Startup
 
-**AI-Assisted Development:** Claude Code · Anthropic API (multi-step agents) · Context7 MCP · Figma MCP · Agentic workflow design
+Food delivery app from scratch: real-time driver tracking and order status over WebSocket, cart and Stripe checkout, Google Maps routing, FCM push and i18n.
 
-**Web:** React.js · HTML5 · CSS3 · Responsive Web Design · Tailwind CSS · Material UI (MUI) · Next.js · Vite · Webpack
+### Chapter One · Educatly – Frontend Developer
+`Mar 2021 – Apr 2022` · Edtech
 
-## 🚀 Featured Project – DevLog
- 
-An AI-powered task tracker demonstrating a production-grade agentic workflow architecture built on the Anthropic API – combining in-app AI agents with a separate layer of development-tooling subagents.
- 
-**In-app agents (4):**
-- Prioritization Agent
-- Decomposition Agent
-- Status Update Agent
-- Blocker Detector Agent
-All four run in parallel via `Promise.all`, with JSON schema validation on every response, and surface their results in a dedicated AI Agents history screen with animated error banners and real-time status updates.
- 
-**Development-tooling subagents (8):**
- 
-A separate set of custom Claude Code subagents built to assist with the engineering process itself – code review, testing, and development automation – integrated with Context7 MCP and Figma MCP for production-grade agentic workflow, and using worktree isolation so multiple agents can work on the codebase concurrently without conflicts.
- 
-📊 **Live report:** [kqjqxb.github.io/MyDevLog](https://kqjqxb.github.io/MyDevLog)
+Platform for students applying to universities abroad: search with URL-based filters, multi-step applications with draft saving and document upload, role-based dashboards, a React Native app, and Node.js REST APIs with JWT / OAuth and CRM integrations.
 
-## 💻 Other Projects
- 
-**Mobile E-Commerce Platform**
- 
-Production-ready full-cycle ordering app for a local grocery store, built with React Native, Firebase (Authentication, Firestore, Cloud Functions), Google Maps geolocation, and a POS API integration for real-time inventory sync. Includes a full checkout flow with order validation, live order status tracking, and an admin-facing order management panel.
- 
-**iOS Sleep & Focus App**
- 
-Full-cycle iOS app built end-to-end from architecture through App Store submission. Custom audio playback engine with background playback, in-app mixing, and seamless transitions, plus video playback support. RevenueCat-powered subscription monetization across three tiers with sandbox-tested purchase flows. Firebase Authentication (including Sign In with Apple) and Firestore for user data and session persistence.
+## 🔦 Selected projects
 
-## 📱 App Store Track Record
-Hands-on experience with App Store Connect, review guideline compliance (including Guideline 4.3), metadata and design rejection handling, and Fastlane-based release automation.
+| | |
+|---|---|
+| 🌙 **[Peacera: Sleep & Focus](https://apps.apple.com/us/app/peacera-sleep-focus/id6791753577)** <br> Live on the App Store | Built solo, from product to release. React Native with native Swift modules for widgets (WidgetKit) and Live Activities (ActivityKit), gapless background audio, RevenueCat subscriptions with a 7-day trial, Fastlane + Codemagic. **99.9% crash-free sessions.** |
+| 📅 **Visitera** <br> Multi-tenant booking SaaS | Live SaaS for beauty masters, built end-to-end on Next.js (App Router) and Node.js. Designed the data model and tenant separation; scoped the MVP to availability first and payments later. |
+| 🤖 **[MyDevLog](https://kqjqxb.github.io/MyDevLog/)** <br> AI task tracker | Four multi-step agents on the Anthropic API (prioritization, decomposition, status update, blocker detection) running in parallel with JSON schema validation, plus 8 versioned Claude Code subagents. Public, unedited devlog of real agent runs. |
+| 🛒 **Grocery e-commerce app** <br> Client project | Ordering platform for a local grocery store: React Native, Firebase, POS integration, real-time order tracking and an admin panel. |
 
-## 📫 Contact
+## 🧪 Stack
 
-- **Email:** [work.maksym.lomakin@gmail.com](mailto:work.maksym.lomakin@gmail.com?subject=Hello&body=I%20want%20to%20talk%20to%20you%20about%20work)
-- **LinkedIn:** [linkedin.com/in/maksym-lomakin](https://www.linkedin.com/in/maksym-lomakin-945160306/)
-- **Telegram:** [@kqjqxb](https://t.me/kqjqxb)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,nodejs,nestjs,express,python,fastapi,graphql,postgres,mongodb,redis,rabbitmq,kafka&theme=dark&perline=14" alt="Stack icons, row one">
+  <br>
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,gcp,firebase,swift,kotlin,tailwind,vite,jest,githubactions,figma,git&theme=dark&perline=14" alt="Stack icons, row two">
+</p>
+
+<details>
+<summary><b>Full list</b></summary>
+<br>
+
+**Web:** React · Next.js (App Router, SSR / SSG / ISR) · SEO · Core Web Vitals · CDN & caching · Web components · Shadow DOM · Tailwind CSS · MUI · SASS · Vite · Webpack · Figma-to-code
+
+**Backend & cloud:** Node.js · Express · NestJS · Python (FastAPI) · Microservices · REST · OpenAPI · GraphQL (Apollo Client, Apollo Federation) · WebSocket · OAuth 2.0 · OpenID Connect · SSO · JWT · PostgreSQL · MongoDB · MySQL · SQLite · Prisma · Redis · Supabase · RabbitMQ · Kafka · SQS · Docker · Kubernetes · Terraform · AWS (Lambda, S3, RDS) · GCP · Firebase
+
+**Mobile:** React Native · Expo (managed & bare, Router, Modules API) · New Architecture (Fabric, TurboModules) · Reanimated · Swift (WidgetKit, ActivityKit) · Kotlin · RevenueCat · Stripe
+
+**State & architecture:** Redux / RTK Query · Redux-Saga · Zustand · MobX · Jotai · TanStack Query · RxJS · Clean Architecture · MVVM · SOLID & GRASP · Turborepo
+
+**Quality & release:** Jest · React Native Testing Library · Playwright · Cypress · Maestro · Detox · GitHub Actions · Fastlane · Codemagic · EAS · App Store Connect · Google Play Console
+
+**Analytics & monitoring:** Sentry · Crashlytics · Amplitude · AppsFlyer · Mixpanel · Segment · Firebase Analytics · A/B testing
+
+**AI-assisted development:** Claude Code (custom subagents) · Anthropic API (multi-step agents) · Context7 MCP · Figma MCP · LLM features in production
+
+</details>
+
+## 🌒 The Upside Down
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kqjqxb/kqjqxb/output/upside-down.svg" alt="Contribution graph with a mirrored Upside Down reflection" width="100%">
+</p>
+
+<p align="center"><sub>Regenerated every night by a GitHub Action from my contribution calendar.</sub></p>
+
+## 📡 Contact
+
+Have a product to build or a team that needs a senior full stack engineer? Write to [work.maksym.lomakin@gmail.com](mailto:work.maksym.lomakin@gmail.com) or [@kqjqxb](https://t.me/kqjqxb) on Telegram.
+
+<p align="center"><sub><i>Friends don't lie, and neither do green CI checks.</i></sub></p>
