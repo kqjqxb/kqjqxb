@@ -20,7 +20,7 @@ Senior Full Stack Engineer with **6+ years** of commercial experience building R
 📍 Warsaw, Poland · 🇺🇦 Ukrainian · English B2 · open to B2B work, remote or hybrid
 
 <p align="center">
-  <img src="assets/wall.svg" alt="A string of lights on an alphabet wall spelling LETS BUILD" width="100%">
+  <img src="assets/wall.svg" alt="A string of lights on an alphabet wall spelling HELLO, HIRE ME and LETS BUILD" width="100%">
 </p>
 
 ## 📼 Chapters

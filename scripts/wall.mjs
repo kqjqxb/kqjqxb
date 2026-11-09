@@ -1,9 +1,10 @@
 // Alphabet wall with a string of lights that spells a message letter by
 // letter, then flickers. Output: assets/wall.svg
-// Usage: node scripts/wall.mjs "LETS BUILD"
+// Usage: node scripts/wall.mjs "HELLO|HIRE ME|LETS BUILD"  (| = pause between phrases)
 import { writeFileSync } from 'node:fs';
 
-const message = (process.argv[2] || 'LETS BUILD').toUpperCase();
+const phrases = (process.argv[2] || 'HELLO|HIRE ME|LETS BUILD').toUpperCase().split('|');
+const message = phrases.join('   ');
 const W = 1200, H = 400;
 const rows = ['ABCDEFGH', 'IJKLMNOPQ', 'RSTUVWXYZ'];
 const colors = ['#ff3b30', '#ffcc00', '#34c759', '#0a84ff', '#ff9f0a', '#bf5af2'];
@@ -12,7 +13,7 @@ let seed = 42;
 const rand = () => ((seed = (seed * 16807) % 2147483647) - 1) / 2147483646;
 
 // Timeline: one slot per character, then a frantic flicker, then darkness.
-const SLOT = 0.7, FLICKER = 1.8, DARK = 1.2;
+const SLOT = 0.6, FLICKER = 1.8, DARK = 1.2;
 const spellEnd = message.length * SLOT;
 const T = spellEnd + FLICKER + DARK;
 const pct = (t) => +((t / T) * 100).toFixed(2);
@@ -56,8 +57,8 @@ rows.forEach((row, r) => {
     css += `#${id} .on{animation:${id} ${T.toFixed(2)}s linear infinite}@keyframes ${id}{${keyframes(ch)}}`;
     bulbs += `<g id="${id}" transform="translate(${x.toFixed(1)} ${by.toFixed(1)}) rotate(${rot})">` +
       `<rect x="-3.5" y="-7" width="7" height="7" rx="1" fill="#2b2b22"/>` +
-      `<ellipse cy="9" rx="6" ry="9" fill="${c}" opacity=".35"/>` +
-      `<g class="on" opacity="0"><circle cy="9" r="26" fill="url(#g${(i + r * 2) % colors.length})"/><ellipse cy="9" rx="6" ry="9" fill="${c}"/><ellipse cx="-2" cy="6" rx="1.6" ry="3" fill="#fff" opacity=".8"/></g></g>`;
+      `<ellipse cy="9" rx="6" ry="9" fill="${c}" opacity=".22"/>` +
+      `<g class="on" opacity="0"><circle cy="9" r="46" fill="url(#g${(i + r * 2) % colors.length})"/><ellipse cy="9" rx="6" ry="9" fill="${c}"/><ellipse cx="-2" cy="6" rx="1.6" ry="3" fill="#fff" opacity=".8"/></g></g>`;
     const lr = ((rand() - 0.5) * 10).toFixed(1);
     letters += `<text x="${x.toFixed(1)}" y="${y + 18}" transform="rotate(${lr} ${x.toFixed(1)} ${y})">${ch}</text>`;
   });
@@ -72,10 +73,10 @@ rows.forEach((row, r) => {
 });
 
 const glows = colors
-  .map((c, i) => `<radialGradient id="g${i}"><stop offset="0" stop-color="${c}" stop-opacity=".75"/><stop offset="1" stop-color="${c}" stop-opacity="0"/></radialGradient>`)
+  .map((c, i) => `<radialGradient id="g${i}"><stop offset="0" stop-color="${c}" stop-opacity=".95"/><stop offset=".35" stop-color="${c}" stop-opacity=".45"/><stop offset="1" stop-color="${c}" stop-opacity="0"/></radialGradient>`)
   .join('');
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="A string of lights spelling ${message}">
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="A string of lights spelling ${phrases.join(', then ')}">
 <style>
   .letters text{font:400 64px Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif;fill:#17120d;opacity:.88;text-anchor:middle}
   ${css}
