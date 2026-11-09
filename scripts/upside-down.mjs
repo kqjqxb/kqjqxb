@@ -72,7 +72,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" 
 <rect width="${W}" height="${H}" rx="12" fill="#0d1117"/>
 <rect y="${HORIZON}" width="${W}" height="${H - HORIZON}" fill="url(#ud)"/>
 <rect y="${HORIZON}" width="${W}" height="${H - HORIZON}" fill="#ff3030" class="flash"/>
-<text x="${X0}" y="44" class="lbl" fill="#8b949e">HAWKINS, INDIANA · THE LAST 365 DAYS OF COMMITS</text>
+<text x="${X0}" y="44" class="lbl" fill="#8b949e">HAWKINS, INDIANA · ${total ? `${total} CONTRIBUTIONS IN THE LAST YEAR` : 'THE LAST 365 DAYS OF COMMITS'}</text>
 ${up}
 <line x1="0" x2="${W}" y1="${HORIZON}" y2="${HORIZON}" stroke="#ff2b2b" stroke-opacity=".55"/>
 <g class="sp">${spores}</g>
